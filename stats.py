@@ -7,8 +7,6 @@ def get_path(lst: list):
 
     return lst[1]
 
-# PATH = "./books/frankenstein.txt"
-
 def get_book_text(path: str):
     with open(path) as f:
         content = f.read()
